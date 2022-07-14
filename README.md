@@ -14,3 +14,5 @@
     + docker build -t redispipeline:v001 .
   + Run image container 
     + docker run -it --network rednet --name pipelinecontainer --rm redispipeline:v001 /bin/bash
+- Run crawlers
+  + python run.py
