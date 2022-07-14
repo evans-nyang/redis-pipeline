@@ -3,9 +3,7 @@ from scrapy import spiderloader
 from scrapy.utils import project
 import argparse
 
-PARSER = argparse.ArgumentParser(
-    description="Crawler for obtaining phone prices from ecommerce website"
-)
+PARSER = argparse.ArgumentParser(description="Crawler for obtaining quotes")
 PARSER.add_argument(
     "--crawlers",
     type=str,
